@@ -17,7 +17,7 @@ You will find :
 - images/
 
 ## 🧛‍♀️ About the author
-Hi, my name is Pauline Leumani and I am an ENGENE since January 2022, which is how ENHYPEN fans are called. In this project I decided to ally my two passions : data science and ENHYPEN.
+Hi, my name is Pauline Leumani and I am an ENGENE since January 2022, which is how ENHYPEN fans are called. In this project I decided to combine my two passions : data science and ENHYPEN.
 
 ## 🦷 Tools
 Python, Jupyter Notebook, Pandas, Matplotlib, NLTK, huggingface, Python Reddit API wrapper (PRAW), Spotify API
