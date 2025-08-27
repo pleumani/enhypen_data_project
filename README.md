@@ -46,5 +46,6 @@ Only 2 files are needed (since the data is collected manually) : *enhypen_album_
    pip install -r req_nlp.txt
    ````
 ## Example output
-[(KDE_distribution_per_album.png)](https://github.com/pleumani/enhypen_data_project/blob/main/KDE_distribution_per_album.png)
-[(enhypen_albums_boxplot.png)](https://github.com/pleumani/enhypen_data_project/blob/main/enhypen_albums_boxplot.png)
+![KDE_distribution_per_album](https://github.com/pleumani/enhypen_data_project/blob/main/KDE_distribution_per_album.png)
+
+![enhypen_albums_boxplot](https://github.com/pleumani/enhypen_data_project/blob/main/enhypen_albums_boxplot.png)
