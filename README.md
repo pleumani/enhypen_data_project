@@ -1,6 +1,11 @@
 # 🧛 ENHYPEN Data Analysis
 Welcome to my project exploring ENHYPEN's album sales, online fan behaviour and Spotify popularity.
 
+
+
+## 🧛‍♀️ About the author
+Hi, my name is Pauline Leumani and I have been an ENGENE (ENHYPEN fan) since January 2022. In this project I combined my two passions : **data science** and **ENHYPEN**.
+
 ## 🩸 Overview
 This project includes : 
 - Data collection from Circle Chart, Reddit, Spotify
@@ -8,16 +13,20 @@ This project includes :
 
 You will find :
 - notebooks/ 
-  - ENHYPEN Data Project.ipynb : this is the main notebook where you will find analysis and visualisations
-  - ENHA NLP.ipynb : this notebook has to be run in a Python 3.11 environment, since the huggingface libraries do not support the latest one yet (you will find all requirements in req_nlp.txt file). This notebook contains the sentiment analysis, and generates reddit_posts.csv file with the scores.
+  - ENHYPEN Data Project.ipynb : main analysis and visualisations
+  - ENHA NLP.ipynb : sentiment analysis (requires Python 3.11; requirements in req_nlp.txt).This notebook contains the sentiment analysis, and generates reddit_posts.csv file with the scores.
 - scripts/
-  - get_reddit_data.py : this Python script collects top reddit posts across different kpop subs
-  - get_spotify_data.py : this Python script collects popularity scores for every track in albums and EPs
+  - get_reddit_data.py : collects top Reddit posts across K-pop subreddits
+  - get_spotify_data.py : collects track popularity scores
 - data/
-- images/
+  - enhypen_album_ranking_byMonth.csv
+  - enhypen_album_ranking_byWeek.csv (not used)
+  - enhypen_events.csv
+  - enha_reddit_posts.csv
+  - roberta_results.csv
+  - spotify_popularity_scores.csv
 
-## 🧛‍♀️ About the author
-Hi, my name is Pauline Leumani and I have been an ENGENE (ENHYPEN fan) since January 2022. In this project I combined my two passions : **data science** and **ENHYPEN**.
+Only 2 files are needed (since the data is collected manually) : *enhypen_album_ranking_byMonth.csv* and *enhypen_events.csv*. The rest is collected through Python scripts.
 
 ## 🦷 Tools
 - Python, Jupyter Notebook
@@ -27,8 +36,13 @@ Hi, my name is Pauline Leumani and I have been an ENGENE (ENHYPEN fan) since Jan
 
 ## How to run
 1. Clone the repository.
-2. Install requirements:  
+2. Install requirements
+   - For the main notebook :  
    ````
-   bash
    pip install -r requirements.txt
    ````
+   - For the NLP notebook :  
+   ````
+   pip install -r req_nlp.txt
+   ````
+## Example output
