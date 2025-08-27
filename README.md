@@ -1,7 +1,7 @@
 # 🧛 ENHYPEN Data Analysis
 Welcome to my project exploring ENHYPEN's album sales, online fan behaviour and Spotify popularity.
 
-[(enha.jpg)](https://github.com/pleumani/enhypen_data_project/blob/main/enha.jpg)
+[!enha](https://github.com/pleumani/enhypen_data_project/blob/main/enha.jpg)
 
 ## 🧛‍♀️ About the author
 Hi, my name is Pauline Leumani and I have been an ENGENE (ENHYPEN fan) since January 2022. In this project I combined my two passions : **data science** and **ENHYPEN**.
