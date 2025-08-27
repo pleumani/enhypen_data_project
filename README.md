@@ -2,7 +2,7 @@
 Welcome to my project exploring ENHYPEN's album sales, online fan behaviour and Spotify popularity.
 
 ## 🩸 Overview
-This project contains : 
+This project includes : 
 - Data collection from Circle Chart, Reddit, Spotify
 - Data analysis and visualisations
 
@@ -17,7 +17,18 @@ You will find :
 - images/
 
 ## 🧛‍♀️ About the author
-Hi, my name is Pauline Leumani and I am an ENGENE since January 2022, which is how ENHYPEN fans are called. In this project I decided to combine my two passions : data science and ENHYPEN.
+Hi, my name is Pauline Leumani and I have been an ENGENE (ENHYPEN fan) since January 2022. In this project I combined my two passions : **data science** and **ENHYPEN**.
 
 ## 🦷 Tools
-Python, Jupyter Notebook, Pandas, Matplotlib, NLTK, huggingface, Python Reddit API wrapper (PRAW), Spotify API
+- Python, Jupyter Notebook
+- Pandas, Matplotlib, NLTK, huggingface
+- PRAW (Python Reddit API wrapper)
+- Spotify API
+
+## How to run
+1. Clone the repository.
+2. Install requirements:  
+   ````
+   bash
+   pip install -r requirements.txt
+   ````
